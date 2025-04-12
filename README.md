@@ -8,8 +8,8 @@ This project lets you explore how sine waves behave by adjusting **frequency**, 
 
 ## 🚀 Live Demo
 
-👉 **[Try the Visualizer on live](https://your-netlify-site.netlify.app/)**  
-👉 **[View Source on GitHub](https://github.com/YOUR_USERNAME/sine-wave-visualizer)**
+👉 **[Try the Visualizer on live](https://sinewave-mgaguli.netlify.app/)**  
+👉 **[View Source on GitHub](https://github.com/2Ntlaks/sine-wave-visualizer.git)**
 
 ---
 
