@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sine Wave Visualization</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- 🔷 Header -->
+      <header>
+        <h1>SINE WAVE WITH WEBGL</h1>
+        <p class="subtitle">Interactive mathematical visualization</p>
+      </header>
+
+      <!-- 🔶 Canvas & Equation -->
+      <div class="canvas-container">
+        <canvas id="canvas"></canvas>
+        <div id="equation">y = sin(x + t)</div>
+      </div>
+
+      <!-- 🔧 Controls -->
+      <div class="control-panel">
+        <div class="slider-container">
+          <label for="frequency-slider">Frequency</label>
+          <input
+            type="range"
+            id="frequency-slider"
+            min="0.1"
+            max="3"
+            step="0.1"
+            value="1.0"
+          />
+          <span id="frequency-value">1.0</span>
+        </div>
+
+        <div class="slider-container">
+          <label for="amplitude-slider">Amplitude</label>
+          <input
+            type="range"
+            id="amplitude-slider"
+            min="0.1"
+            max="1"
+            step="0.1"
+            value="0.5"
+          />
+          <span id="amplitude-value">0.5</span>
+        </div>
+
+        <div class="slider-container">
+          <label for="speed-slider">Speed</label>
+          <input
+            type="range"
+            id="speed-slider"
+            min="0.01"
+            max="0.1"
+            step="0.01"
+            value="0.03"
+          />
+          <span id="speed-value">0.03</span>
+        </div>
+      </div>
+
+      <!-- ✒️ Attribution -->
+      <div class="branding">Mgaguli Tutoring</div>
+    </div>
+
+    <!-- ✨ Hover Label -->
+    <div id="hover-label"></div>
+
+    <!-- 🔽 Main JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
